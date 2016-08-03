@@ -1,0 +1,21 @@
+var assert = require('assert');
+
+var Chance = require('chance');
+
+var chance = new Chance();
+
+describe('splitscnd Add New Driver', function() {
+    it('should Add New Driver', function () {
+    	this.timeout(60000);//set timeout to be a minute
+
+    	browser.setValue('input[type="text"]', chance.first);
+    	browser.setValue('input[type="email"]', chance.email);
+    	browser.setValue('input[type="email"]', chance.email);
+
+GO BACK FLOW        			
+
+
+
+    	    });
+        });
+ 

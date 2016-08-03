@@ -1,0 +1,19 @@
+{
+  "name": "splitsecnd",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "test1.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "author": "Stephanie",
+  "license": "ISC",
+  "dependencies": {
+    "chance": "^1.0.4",
+    "webdriverio": "^4.2.3"
+  },
+  "devDependencies": {
+    "wdio-dot-reporter": "0.0.6",
+    "wdio-mocha-framework": "^0.4.0"
+  }
+}
